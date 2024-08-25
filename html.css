@@ -68,3 +68,59 @@ svg.grow {
 svg:hover {
  transform: scale(1.7);
 }
+
+
+@media screen and (max-width: 500px)
+{
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url(bg.jpg);
+        background-size: cover;
+        height: 100dvh;
+        width: 100vw;
+
+ h2 {
+    font-size: 1.5rem;
+ }
+
+ section {
+    font-size: .9rem;
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    gap: 2rem;
+    
+}
+ 
+h1 {
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.content {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color: aliceblue;
+    width: 53rem;
+    font-size: 1rem;
+    height: auto;
+    width: auto;
+}
+
+footer {
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 12rem; 
+
+}
+
+}
